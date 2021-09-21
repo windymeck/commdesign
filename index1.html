@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <body>
+      <link rel="stylesheet" href="css/style.css" />
+
+          <style>
+            .img-container {
+            text-align: center;
+            display: block;
+            width="20";
+            height="15";
+            }
+          </style>
+          
+      </head>
+
+
+    <!-- La barra de navegación -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class="w3-bar-item w3-button"><b>COMMUNICATION DESIGN</b> </a>
+        <!-- Los links flotantes de la derecha -->
+        <div class="w3-right w3-hide-small">
+          <a href="#projects" class="w3-bar-item w3-button">PROJECTS</a>
+          <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+          <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Contenido Completo de la página -->
+
+<div class="w3-content w3-padding" style="max-width:1564px" >
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32"  id="projects" style="text-align:center" >
+    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">PROJECTS</h2>
+  </div>
+
+  <!--Toda la parte de la historia de Beatriz -->
+
+      <div class="w3-row-padding">
+        <div class="w3-col s4" style="text-align:center">
+        <h3>Beatriz's Story</h3>
+        <p class="w3-opacity"> She thought she was going to Holland, but ended up in Norway. Even so she chose to stay in Norway after her studies</p>
+        <!-- <img src="bergen.jpg" alt="Bergen" width="250" height="250"> -->
+        <button class="w3-button w3-light-grey w3-block onclick" onclick="location.href='http://tyfn.alwaysdata.net/First_Assignment/'"> Beatriz's story</button>
+        </div>
+      </div>
+
+  <!--Toda la parte de la historia del Microchip-->
+
+      <div class="w3-row-padding">
+        <div class="w3-col s4" style="text-align:center">
+        <h3>The microship and semiconductor shortage</h3>
+        <p class="w3-opacity">The crisis struck harder than we thought it would </p>
+        <!--<img src="micro.jpg" alt="Micro" width="250" height="250"> -->
+        <button class="w3-button w3-light-grey w3-block onclick" onclick="location.href='http://tyfn.alwaysdata.net/Second_Assignment/'"> Microchip </button>
+       </div>
+    </div>
+
+
+
+  <!-- Sección de about-->
+
+      <div class="w3-container w3-padding-32" id="about" style="text-align:center">
+        <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">ABOUT</h2>
+        <p>We are three IT students from France and Spain who are currently studying in Norway thanks to the Erasmus + scholarship. We are going to use this web page to upload all the projects that we will be doing throughout the course in the communication design subject at the University of Ostfold.
+
+        </p>
+      </div>
+
+   <!-- Descripción de cada uno -->
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+          <h3>Tyffen Eloy</h3>
+          <p class="w3-opacity">Computer Engineer from France UNIVERSITY</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+          <h3>Guillaume Prébot </h3>
+          <p class="w3-opacity">Computer Engineer </p>
+          <!--Si se quiere escribir algo para la descrpcion de cada uno, escribir aquí.  --><p></p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="haizea.jpg" alt="Dan" style="width:100%">
+          <h3>Haizea Garaño</h3>
+          <p class="w3-opacity">Computer Engineer from Spain, University Of the Basque Country</p>
+          <button class="w3-button w3-light-grey w3-block onclick" onclick="location.href='https://www.linkedin.com/in/haizea-gara%C3%B1o/'"> Linkedin </button>
+        </div>
+      </div>
+
+  <!-- Contact Section -->
+
+        <div class="w3-container w3-padding-32" id="contact" style="text-align:center">
+          <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">CONTACT</h2>
+          <p>Lets get in touch and talk about your doubts!</p>
+          <form action="/action_page.php" target="_blank">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+            <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+            <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+            <button class="w3-button w3-black w3-section" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </form>
+        </div>
+
+<!-- Logo de la uni -->
+
+      <div class="img-container">
+        <img src="uni.jpg">
+      </div>
+
+</html>
